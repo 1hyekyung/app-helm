@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: hyekyung1/app:addcdworkflow
+  image: hyekyung1/app:v10
   replicas: 3
   secret:
     mysqlUser: "frodo"
